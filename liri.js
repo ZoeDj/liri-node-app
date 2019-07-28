@@ -29,8 +29,8 @@ axios.get(concertQueryURL).then(
 
         // log to the txt.log
         var concertLog = "-------" + artist + " will perform at the folowing event -------" + " \r " +
-        "Name of the venue: " + response.data[0].venue.name + "\r  "
-        "Venue location: " + response.data[0].venue.city + "\r  "
+        "Name of the venue: " + response.data[0].venue.name + "\r " + 
+        "Venue location: " + response.data[0].venue.city + "\r " + 
         "Date of the event: " + moment(response.data[0].venue.datetime).format("MM/DD/YYYY") + "\r "  ;
 
         //append text to log.txt
