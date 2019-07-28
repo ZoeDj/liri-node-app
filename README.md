@@ -6,14 +6,14 @@ LIRI searchs Bands in Town for concerts :guitar: , Spotify for songs :notes: , a
 
 LIRI can take in one of the four commands:
 
-1. `node liri.js concert-this 21 Pilots <artist/band name here>`
+1. `node liri.js concert-this <artist/band name here>`
 This will search the Bands in Town Artist Events API for an artist and render the following information about each event to the terminal:
 
 - Name of the venue
 - Venue location
 - Date of the Event
 
-2. `node liri.js spotify-this-song London Calling '<song name here>'`
+2. `node liri.js spotify-this-song '<song name here>'`
 This will show the following information about the song in your terminal/bash window
 
 - Artist(s)
@@ -24,7 +24,7 @@ This will show the following information about the song in your terminal/bash wi
 If no song is provided then LIRI will default to "The Sign" by Ace of Base.
 
 
-3. `node liri.js movie-this Back to the Future '<movie name here>'`
+3. `node liri.js movie-this '<movie name here>'`
 This will output the following information to your terminal/bash window:
 
 - Title of the movie.
@@ -46,4 +46,5 @@ LIRI will take the text inside of random.txt and then use it to call one of LIRI
   - SPOTIFY_ID=your-spotify-id
   - SPOTIFY_SECRET=your-spotify-secret
 
-You can watch [my demo of the Liri App](https://recordit.co/89THVvHjnr)
+You can watch my demo of the Liri App
+![](http://g.recordit.co/TiUrCpS2bh.gif)
