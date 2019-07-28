@@ -46,4 +46,4 @@ LIRI will take the text inside of random.txt and then use it to call one of LIRI
   - SPOTIFY_ID=your-spotify-id
   - SPOTIFY_SECRET=your-spotify-secret
 
-You can watch [my demo of the Liri App] (https://recordit.co/89THVvHjnr)
+You can watch [my demo of the Liri App](https://recordit.co/89THVvHjnr)
