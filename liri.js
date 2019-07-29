@@ -48,7 +48,7 @@ function searchSong(song){
     console.log("spotify key: " + spotify);
 
     if (!song){
-        song= "The Sing";
+        song = "The Sing";
     };
 
     spotify.search({ 

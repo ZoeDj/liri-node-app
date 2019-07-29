@@ -1,6 +1,8 @@
 # liri-node-app
 
-**LIRI** is a command line node app that takes in parameters and gives you back data (*Language Interpretation and Recognition Interface* )
+# LIRI App
+
+**LIRI** (*Language Interpretation and Recognition Interface* )is a command line node app that takes in parameters and gives you back data 
 
 LIRI searchs Bands in Town for concerts :guitar: , Spotify for songs :notes: , and OMDB for movies :movie_camera: .
 
@@ -46,5 +48,18 @@ LIRI will take the text inside of random.txt and then use it to call one of LIRI
   - SPOTIFY_ID=your-spotify-id
   - SPOTIFY_SECRET=your-spotify-secret
 
-You can watch my demo of the Liri App
+
+## Technologies Used:
+
+* Node.js
+* JavaScript
+* npm packages
+* * Node-Spotify-API
+* * Axios
+* * Moment
+* * DotEnv
+
+
+This is my demo of the Liri App
+
 ![](http://g.recordit.co/TiUrCpS2bh.gif)
